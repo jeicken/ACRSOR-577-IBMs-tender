@@ -22,3 +22,8 @@ Thumbs.db
 *.tmp
 *.swp
 *~
+
+# Environment and build artifacts
+.env*
+dist/
+*.egg-info/

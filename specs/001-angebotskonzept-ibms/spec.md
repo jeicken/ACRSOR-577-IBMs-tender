@@ -95,7 +95,10 @@ Markdown-Abschnitte getrennt aktualisieren und der Dokumentaufbau stabil bleibt.
 - **FR-003**: Die Ausgabedatei MUST vollstaendig in deutscher Sprache verfasst
   sein.
 - **FR-004**: Die Datei MUST eine nachvollziehbare Loesungsdarstellung fuer den
-  funktionalen Scope des iBMS 3.0 enthalten.
+  funktionalen Scope des iBMS 3.0 enthalten, indem mindestens die
+  Pflichtkapitel 1-11 vorhanden sind, jedes Pflichtkapitel eine klare
+  Zielaussage enthaelt und alle als zentral markierten Aussagen ueber
+  Quellenbezug oder Annahmekennzeichnung verfuegen.
 - **FR-005**: Das Konzept MUST die Themen Rollen/Funktionsrollen, Module bzw.
   Bereiche, Test- und Abnahmeumgebung sowie Meilensteinbezug adressieren.
 - **FR-006**: Das Konzept MUST die wertungsrelevanten Konzept-Unterkriterien
@@ -117,6 +120,8 @@ Markdown-Abschnitte getrennt aktualisieren und der Dokumentaufbau stabil bleibt.
   werden, wie es die Unterlagen und die Angebotsbearbeitung erfordern.
 - Es duerfen keine externen, nicht verifizierten Quellen als verbindliche
   Vergabegrundlage dargestellt werden.
+- Fuer Arbeitsartefakte muessen Aufbewahrungs- und Loeschregeln fuer den
+  Tender-Lebenszyklus definiert und eingehalten werden.
 
 ### Evidence and Traceability Requirements *(mandatory)*
 
@@ -125,6 +130,29 @@ Markdown-Abschnitte getrennt aktualisieren und der Dokumentaufbau stabil bleibt.
 - Fuer zentrale Aussagen (Funktionsumfang, Testumgebung, Meilensteine,
   Wertungskriterien) muss ein Quellenbezug dokumentiert werden.
 - Jede Annahme muss als solche markiert und spaeter verifizierbar sein.
+
+### Normative Definitions *(mandatory)*
+
+- **Pflichtkapitel (fuer SC-001)**:
+  1. Einleitung und Zielbild
+  2. Verstaendnis der Ausgangslage iBMS 3.0
+  3. Fachliches Loesungskonzept fuer den funktionalen Scope
+  4. Rollen- und Rechtebild
+  5. Test- und Abnahmeumgebung
+  6. Meilenstein- und Lieferlogik
+  7. Organisations- und Kommunikationsansatz
+  8. Personal- und Qualitaetssicherungskonzept
+  9. Service-Delivery und Beschwerdemanagement
+  10. Risikobetrachtung und Annahmen
+  11. Nachweis- und Quellenuebersicht
+- **Kritische Anforderungen (fuer SC-002)**: FR-005, FR-006, FR-007, FR-008,
+  alle Punkte aus "Compliance and Confidentiality Requirements" sowie alle
+  Punkte aus "Evidence and Traceability Requirements".
+- **Zentrale Aussagen (fuer SC-004)**: Alle Aussagen in den Kapiteln 3, 5, 6,
+  7, 8 und 9, die mit dem Marker `[ZENTRAL]` gekennzeichnet sind.
+- **Review-Runde (fuer SC-005)**: Startzeitpunkt ist die Bereitstellung eines
+  Erstentwurfs mit 100 % Pflichtkapiteln. Endzeitpunkt ist die dokumentierte
+  Abnahme der ersten Review-Runde durch Bid-Management und Fachverantwortung.
 
 ### Key Entities *(include if feature involves data)*
 
@@ -147,12 +175,18 @@ Markdown-Abschnitte getrennt aktualisieren und der Dokumentaufbau stabil bleibt.
   und deckt 100 % der definierten Pflichtkapitel ab.
 - **SC-002**: Mindestens 90 % der kritischen Anforderungen aus den ausgewerteten
   PDF-Unterlagen sind im Konzept explizit adressiert.
+  Messmethode: `(adressierte kritische Anforderungen / gesamte kritische
+  Anforderungen) * 100 >= 90`.
 - **SC-003**: 100 % der wertungsrelevanten Unterkriterien des Konzeptanteils sind
   in mindestens einem klar benannten Abschnitt abgebildet.
 - **SC-004**: 100 % der zentralen Aussagen im Konzept sind mit Quellenbezug oder
   expliziter Annahmekennzeichnung versehen.
+  Messmethode: `zentrale Aussagen mit Nachweis oder Annahmemarker / alle
+  zentralen Aussagen = 100 %`.
 - **SC-005**: Das Angebotsteam kann innerhalb von 2 Arbeitstagen nach Erstellung
   eine erste Review-Runde auf Basis des Dokuments abschliessen.
+  Messmethode: Zeitdifferenz zwischen Start und Ende der Review-Runde <= 2
+  Arbeitstage.
 
 ## Assumptions
 

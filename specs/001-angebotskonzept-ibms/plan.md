@@ -46,7 +46,7 @@ flowchart TD
 
 **Constraints**: Deutsche Sprache; XLSX-Quellen in dieser Iteration ausgeschlossen; Aussagen nur mit Quellenbezug oder Annahmekennzeichnung
 
-**Scale/Scope**: 1 zentrales Angebotskonzept + 4 Planungsartefakte (research, data model, contract, quickstart)
+**Scale/Scope**: 1 zentrales Angebotskonzept + 4 Planungsartefakte (research, data model, contract, quickstart) + operative Governance-Artefakte (evidence, checklists, collaboration, submission)
 
 ## Constitution Check
 

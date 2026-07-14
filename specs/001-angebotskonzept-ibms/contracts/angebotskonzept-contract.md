@@ -35,13 +35,13 @@ Definiert die minimale, pruefbare Struktur und Qualitaetskriterien fuer das zu e
 - Der Text muss konsistent mit den Unterlagen zur Wertung und Leistungsbeschreibung sein.
 
 ## Acceptance Checklist
-- [ ] Datei `Angebotskonzept.md` vorhanden
-- [ ] Alle Pflichtkapitel enthalten
-- [ ] Sprache durchgehend Deutsch
-- [ ] Nachweise/Quellen pro Schluesselaussage vorhanden
-- [ ] Offene Annahmen vor Freigabe gekennzeichnet
-- [ ] Meilensteinbezug zu Anlage 7 nachvollziehbar
-- [ ] Anforderungen zur Testumgebung aus Anlage 5 adressiert
+- [x] Datei `Angebotskonzept.md` vorhanden
+- [x] Alle Pflichtkapitel enthalten
+- [x] Sprache durchgehend Deutsch
+- [x] Nachweise/Quellen pro Schluesselaussage vorhanden
+- [x] Offene Annahmen vor Freigabe gekennzeichnet
+- [x] Meilensteinbezug zu Anlage 7 nachvollziehbar
+- [x] Anforderungen zur Testumgebung aus Anlage 5 adressiert
 
 ## Versioning
 - Contract version: 1.0.0
